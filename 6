@@ -1,0 +1,10 @@
+import random
+
+# 6. Combination Lock Generator
+# 3-digit code (0-9)
+code1 = "".join([str(random.randint(0, 9)) for _ in range(3)]) 
+# 4-digit code (1-6)
+code2 = "".join([str(random.randint(1, 6)) for _ in range(4)]) 
+
+print(f"3-digit code (0-9): {code1}")
+print(f"4-digit code (1-6): {code2}")
